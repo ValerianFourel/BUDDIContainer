@@ -25,6 +25,8 @@ cd ..
 cp buddi/smpl_model_data/J_regressor_h36m.npy buddi/essentials/body_models/J_regressor_h36m.npy
 bev.prepare_smil -source_dir=buddi/essentials/body_models
 cp .romp/SMPLA_NEUTRAL.pth buddi/essentials/body_models/smpla/SMPLA_NEUTRAL.pth
+
+cd buddi
 cp ../.romp/smil_packed_info.pth essentials/body_models/smil/smil_packed_info.pth
 
 bash demo.sh
